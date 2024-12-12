@@ -1,6 +1,19 @@
 [package]
-name = "x-bot"
+name = "your_project_name"
 version = "0.1.0"
-edition = "2021"
+edition = "2025"
+
+description = "A Rust project to monitor GitHub activities and post updates on Twitter for the community..."
+license = "MIT"
 
 [dependencies]
+anyhow = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+octocrab = "0.8"
+reqwest = { version = "0.11", features = ["json", "tokio"] }
+serde = { version = "1.0", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }
+log = "0.4"
+env_logger = "0.10"
+twitter = "0.7"
+serde_json = "1.0"
