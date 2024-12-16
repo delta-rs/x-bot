@@ -7,11 +7,7 @@ use x_bot::{
         handle_webhook,
         health_check, 
         call_back},
-    x::{
-        client::XClient,
-        // post_queue::PostQueue,
-        // scheduler::PostScheduler
-    }};
+    x::client::XClient};
 use std::sync::Arc;
 use tokio::net::TcpListener;
 use axum::{
