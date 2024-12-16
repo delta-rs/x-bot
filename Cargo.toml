@@ -4,3 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+chrono = "0.4.39"
+clap = { version = "4.5.23", features = ["derive"] }
+octocrab = "0.42.1"
+thiserror = "2.0.7"
+tokio = { version = "1.42.0", features = ["full"] }
+twitter-v2 = "0.1.8"
