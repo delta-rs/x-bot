@@ -14,9 +14,10 @@ COPY . .
 RUN cargo build --release
 
 # Use a minimal base image for the final stage
-FROM debian:buster-slim
+FROM debian:bullseye-slim
 
-RUN apt-get update && apt install -y openssl
+# Install OpenSSL
+RUN apt-get update && apt-get install -y openssl && rm -rf /var/lib/apt/lists/*
 
 # Set the working directory
 WORKDIR /usr/src/app
