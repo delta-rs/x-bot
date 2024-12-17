@@ -13,10 +13,7 @@ serde_json = "1.0.133"
 tracing = "0.1.41"
 tracing-subscriber = { version = "0.3.19", features = ["env-filter"] }
 dotenv = "0.15.0"
-hmac = "0.12.1"
-sha2 = "0.10.8"
 anyhow = "1.0.94"
-octocrab = "0.42.1"        # GitHub API client
-twitter-v2 = "0.1.8"       # X (Twitter) API v2 client
-hex = "0.4.3"             # For hex encoding/decoding
-chrono = { version = "0.4.39", features = ["serde"] }  # Date and time library
+octocrab = "0.42.1"
+twitter-v2 = "0.1.8"
+chrono = { version = "0.4.39", features = ["serde"] }
