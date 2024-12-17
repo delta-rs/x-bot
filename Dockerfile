@@ -23,7 +23,7 @@ WORKDIR /usr/src/app
 COPY --from=builder /usr/src/app/target/release/x_bot .
 
 # Expose the port the app runs on
-EXPOSE 7878
+EXPOSE 8080
 
 # Run the application
 CMD ["./x_bot"]
