@@ -1,43 +1,54 @@
-# Delta 𝕏 Bot
+# X-Bot #
 
-The official 𝕏 bot for Delta.
+This service polls the github API to fetch contributor and release related information in order to publish them on X.
 
-## What needs to be done
+## Configuration ##
 
-We need an X bot that posts updates to `@deltaml_org` with information from GitHub API.
+The tool can be configured by the following environmental variables:
 
-**You will use the GitHub API to:**
+| Variable name                  | Description                                  | Default   | Required |
+|--------------------------------|----------------------------------------------|-----------|----------|
+| GITHUB_BEARER_TOKEN            | Authentication for github                    |           | No       |
+| GITHUB_BASE_URL                | Github api base url used in tests            |           | No       |
+| GITHUB_BRANCH                  | Branch to watch for git push events          | master    | No       |
+| GITHUB_CONNECT_TIMEOUT         | Connection timeout for the github http client|           | No       |
+| GITHUB_EXIT_ON_POLL_ERROR      | Exit on http erros, used in tests            |           | No       |
+| GITHUB_FETCH_PAGES_PER_REQUEST | Number of pages to fetch in one request      | 100       | No       |
+| GITHUB_MAX_RETRIES             | Number of retries on fetch failure           | 3         | No       |
+| GITHUB_OWNER                   | The owner of the github repository           | delta-rs  | No       |
+| GITHUB_POLL_FREQUENCY          | Duration between fetching events             | 5 minunes | No       |
+| GITHUB_READ_TIMEOUT            | Http read timeout                            |           | No       |
+| GITHUB_REPOSITORY              | The name of the repository to watch          | delta     | No       |
+| X_CLIENT_IDENTIFIER            | X application Oauth1 identifier              |           | Yes      |
+| X_CLIENT_SECRET                | X application Oauth1 identifier              |           | Yes      |
+| X_TOKEN                        | X user Oauth1 identifier                     |           | Yes      |
+| X_TOKEN_SECRET                 | X user Oauth1 identifier                     |           | Yes      |
+| X_BASE_URL                     | X api base url, used in tests                |           | No       |
+| X_HTTP_CLIENT_MAX_IDLE         | Max idle connections per host                | 1         | No       |
+| X_HTTP_CLIENT_TIMEOUT          | Global timeout for http communication        | 5 seconds | No       |
+| X_MAX_RETRIES                  | Attempts to retry a failed tweet             | 3         | No       |
+| RUST_LOG                       | Log level                                    | ERROR     | No       |
+| RUST_BACKTRACE                 | Pring backtrace to stdout                    |           |          |
 
-- Detect when a new contributor makes their first commit to the `master` branch of the delta repository.
-- Detect when a new release of the delta repository is published.
+## Tests and developemnt ##
 
-**You will use the X API to:**
+To run tests from CI issue:
+`cargo test`
 
-- Post a message to `@deltaml_org` whenever a new contributor makes their first commit to the `master` branch of the delta repository.
-- Post a message to `@deltaml_org` whenever a new release of the delta repository is published.
+To run tests during development:
+`export RUST_LOG=DEBUG; cargo test -- --nocapture`
 
-### We need (for now) two types of posts:
+## Deploy ##
 
-#### 1. For new contributors:
-```
-Delta got a new contributor [Contributor Name]!
+To build the application on mac silicon:
+`docker compose build --build-arg ARCH=aarch64`
 
-Details: [Commit message]  
+To run it:
+`docker compose up`
 
-Link: [Commit link]
-```
+X-Bot requires no ports to expose, or volumes.
 
-#### 2. For new releases:
-
-```
-New release ([Version Number]) of Delta out! 🎉
-  
-Link to release notes: [Release link]
-```
-
-Implement these features in the bot, ensuring the messages are posted automatically whenever these events occur. 
-
-If anything is unclear, reach out in the [Github Discussions](https://github.com/orgs/delta-rs/discussions/categories/general) here on GitHub.
+    Note that the docker build will ensure that everything is statically linked
 
 ## Contributors
 

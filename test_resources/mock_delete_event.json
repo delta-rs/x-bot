@@ -1,0 +1,33 @@
+[
+    {
+        "id": "44758231577",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 33717111,
+            "login": "mjovanc",
+            "display_login": "mjovanc",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mjovanc",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33717111?"
+        },
+        "repo": {
+            "id": 893916892,
+            "name": "delta-rs/delta",
+            "url": "https://api.github.com/repos/delta-rs/delta"
+        },
+        "payload": {
+            "ref": "fixes",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2024-12-13T09:23:35Z",
+        "org": {
+            "id": 189621827,
+            "login": "delta-rs",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/delta-rs",
+            "avatar_url": "https://avatars.githubusercontent.com/u/189621827?"
+        }
+    }
+]
