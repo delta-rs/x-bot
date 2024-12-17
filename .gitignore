@@ -1,6 +1,12 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
 # Rust
 /target
 **/*.rs.bk
+Cargo.lock
 
 # JetBrains
 .idea/
@@ -11,8 +17,19 @@
 # VSCode
 .vscode/
 
-# macOS
+# IDE
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
 .DS_Store
+Thumbs.db
+
+# macOS
 .AppleDouble
 .LSOverride
 

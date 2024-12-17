@@ -1,6 +1,19 @@
 [package]
-name = "x-bot"
+name = "x_bot"
 version = "0.1.0"
 edition = "2021"
+authors = ["dmbtechdev <dmbtechdev@gmail.com>"]
+description = "A bot that posts the Delta repository updates to X"
 
 [dependencies]
+tokio = { version = "1.42.0", features = ["full"] }
+axum = "0.7.9"
+serde = { version = "1.0.216", features = ["derive"] }
+serde_json = "1.0.133"
+tracing = "0.1.41"
+tracing-subscriber = { version = "0.3.19", features = ["env-filter"] }
+dotenv = "0.15.0"
+anyhow = "1.0.94"
+octocrab = "0.42.1"
+twitter-v2 = "0.1.8"
+chrono = { version = "0.4.39", features = ["serde"] }
