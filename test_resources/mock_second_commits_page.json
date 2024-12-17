@@ -1,0 +1,171 @@
+[
+  {
+    "sha": "d996eb17862f53c0800580d96ac9f8b8082d2ac6",
+    "node_id": "C_kwDONUgW3NoAKGQ5OTZlYjE3ODYyZjUzYzA4MDA1ODBkOTZhYzlmOGI4MDgyZDJhYzY",
+    "commit": {
+      "author": {
+        "name": "Marcus Cvjeticanin",
+        "email": "mjovanc@icloud.com",
+        "date": "2024-12-13T13:37:51Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-12-13T13:37:51Z"
+      },
+      "message": "Merge pull request #135 from delta-rs/mjovanc-patch-1\n\nUpdate README.md",
+      "tree": {
+        "sha": "78e2d4ef3efcac8fc527d963881d5b1012f979c3",
+        "url": "https://api.github.com/repos/delta-rs/delta/git/trees/78e2d4ef3efcac8fc527d963881d5b1012f979c3"
+      },
+      "url": "https://api.github.com/repos/delta-rs/delta/git/commits/d996eb17862f53c0800580d96ac9f8b8082d2ac6",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnXDivCRC1aQ7uu5UhlAAA+dUQABwJGX9t/lca4NoQsGje0YzG\nBy/n0lAo6kL3a5pY9HBC/rICryU3bWmmqA0k3jwKCy0XRsvvlnfTZsyBHrl9SJui\n/qldwVMHk45Ff6RW+J4kxW65tEEuLNZfJZhn/1r3s7aiuGf9B7YbV9VplFCnWOAl\nJfxDbE3aFZtGjQRaRh0aRWAdUUViYmktAiQ4hcji82EDemS8qbrVqXp41OQHWifU\nZlg7DW21nY+WqQwxzZI9bFfQENzZqeJCRvk+dDDLfEaQctKGcjgeGINskGNtBJSJ\nd3z+xTW1sdw15kSRhxGhP2tb1AAH81F4vUyFs+JUYKbWHGudBeQ1q6hqUuLV9HWX\nDtl4CcA0XOJwh4kByFJSc4V4DW3I0DtY0NbOsdFLw/eC4MQ0EjqAGeI4tjjHuJyC\n0J+Ty3PK+cOJMiUn2eQugzGKr4vwRan5/7pUYCXSPbTjIR7jvnM8JSiqAp3V0gZC\ncmw8Q8xG2VsipgTIsP5tjSgXAjDYAg9/E5PrpC0ZBIK6RDfdJBbB5SK+msuxCH5S\n05Vmye7OUBlTCiBVzRLdFUEFxzGgbklIkMDyj+6J6f3v91yCZU2hlqSGxHwW4ruU\nVsR78vigYfgDykZ4FqbllfdqJg++DLe0iD0Dzr5e+qwiiuN7gbsKLSRqGv8pueMy\n9r3ixKgBAkLlKHFrQAsE\n=8QmI\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 78e2d4ef3efcac8fc527d963881d5b1012f979c3\nparent b2468247c213e546bcb02d42bc6a20b1c75cb74b\nparent 2aac6d45f14acac581cc64423b7c21c4ef08d8c9\nauthor Marcus Cvjeticanin <mjovanc@icloud.com> 1734097071 +0100\ncommitter GitHub <noreply@github.com> 1734097071 +0100\n\nMerge pull request #135 from delta-rs/mjovanc-patch-1\n\nUpdate README.md",
+        "verified_at": "2024-12-13T13:41:31Z"
+      }
+    },
+    "url": "https://api.github.com/repos/delta-rs/delta/commits/d996eb17862f53c0800580d96ac9f8b8082d2ac6",
+    "html_url": "https://github.com/delta-rs/delta/commit/d996eb17862f53c0800580d96ac9f8b8082d2ac6",
+    "comments_url": "https://api.github.com/repos/delta-rs/delta/commits/d996eb17862f53c0800580d96ac9f8b8082d2ac6/comments",
+    "author": {
+      "login": "mjovanc",
+      "id": 33717111,
+      "node_id": "MDQ6VXNlcjMzNzE3MTEx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33717111?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mjovanc",
+      "html_url": "https://github.com/mjovanc",
+      "followers_url": "https://api.github.com/users/mjovanc/followers",
+      "following_url": "https://api.github.com/users/mjovanc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mjovanc/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mjovanc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mjovanc/subscriptions",
+      "organizations_url": "https://api.github.com/users/mjovanc/orgs",
+      "repos_url": "https://api.github.com/users/mjovanc/repos",
+      "events_url": "https://api.github.com/users/mjovanc/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mjovanc/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b2468247c213e546bcb02d42bc6a20b1c75cb74b",
+        "url": "https://api.github.com/repos/delta-rs/delta/commits/b2468247c213e546bcb02d42bc6a20b1c75cb74b",
+        "html_url": "https://github.com/delta-rs/delta/commit/b2468247c213e546bcb02d42bc6a20b1c75cb74b"
+      },
+      {
+        "sha": "2aac6d45f14acac581cc64423b7c21c4ef08d8c9",
+        "url": "https://api.github.com/repos/delta-rs/delta/commits/2aac6d45f14acac581cc64423b7c21c4ef08d8c9",
+        "html_url": "https://github.com/delta-rs/delta/commit/2aac6d45f14acac581cc64423b7c21c4ef08d8c9"
+      }
+    ]
+  },
+  {
+    "sha": "2aac6d45f14acac581cc64423b7c21c4ef08d8c9",
+    "node_id": "C_kwDONUgW3NoAKDJhYWM2ZDQ1ZjE0YWNhYzU4MWNjNjQ0MjNiN2MyMWM0ZWYwOGQ4Yzk",
+    "commit": {
+      "author": {
+        "name": "Marcus Cvjeticanin",
+        "email": "mjovanc@icloud.com",
+        "date": "2024-12-13T13:36:28Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-12-13T13:36:28Z"
+      },
+      "message": "Update README.md",
+      "tree": {
+        "sha": "78e2d4ef3efcac8fc527d963881d5b1012f979c3",
+        "url": "https://api.github.com/repos/delta-rs/delta/git/trees/78e2d4ef3efcac8fc527d963881d5b1012f979c3"
+      },
+      "url": "https://api.github.com/repos/delta-rs/delta/git/commits/2aac6d45f14acac581cc64423b7c21c4ef08d8c9",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnXDhdCRC1aQ7uu5UhlAAA6vEQAK6fdwsIGdeeY/l8aUGetB5u\nsoDJZ59drgTVYSDqr76/A9T2SGMrweOYmzb3spSNyYEt4c6A7Jpoe0OrUDpvWuZ6\ngrgaYLUne6KU9PI7qkeu8BXXLEfKsENG0QBNhdEDuxxCaV2t+eVa9i2SSTaO9obG\ncED8TfCccs7kuP4LZLxlXU00wyqK3shNuqP5PmhMaPgZrMK1g3/P4f7eDb1XYUDf\nTGIChLPCUNSSn8VfxFAmeKBe5XbW3pZW7ZAmeBerVoO8PFbowNDF7LB2qLyd7mAM\nPSlmshsyl+RwwscXPbeSZzWw4WsEEG8tiHzjN9FQBYCXpmMfph1r7aYTvxT5CpnX\n5nySRsQ4ZPAl4tqva41Aokn5KGUROJF6BQnePI3qlGh35C4eGnJbwrMMyD9STVZX\n0bZVXh0Xi7Unf2njhdkPMNtR9z7ExKDQhvabAarzoKZKErNQ4x1dXdy9jxkDbZVQ\nXblHLfCzeCEBNWO+Mvr8HGKj0AfTnshNnpGtsoe1r5O2swJAkmHnfgEduDuqUAtd\n051+q9CP671WpbXmn7emDcyabeMytLR6r7euW/ZPZMxn09G3BTLxFoGmF3Erx9F1\nCQTetUQJ5ngqveSsk5HrCvQwqIKN2CKRUdbWVpJFRuJHzsPgQBN+Bu9j1evEoJ02\nXhqJCR0iABP8ZgLOvYxO\n=9zqn\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 78e2d4ef3efcac8fc527d963881d5b1012f979c3\nparent b2468247c213e546bcb02d42bc6a20b1c75cb74b\nauthor Marcus Cvjeticanin <mjovanc@icloud.com> 1734096988 +0100\ncommitter GitHub <noreply@github.com> 1734096988 +0100\n\nUpdate README.md",
+        "verified_at": "2024-12-13T13:36:30Z"
+      }
+    },
+    "url": "https://api.github.com/repos/delta-rs/delta/commits/2aac6d45f14acac581cc64423b7c21c4ef08d8c9",
+    "html_url": "https://github.com/delta-rs/delta/commit/2aac6d45f14acac581cc64423b7c21c4ef08d8c9",
+    "comments_url": "https://api.github.com/repos/delta-rs/delta/commits/2aac6d45f14acac581cc64423b7c21c4ef08d8c9/comments",
+    "author": {
+      "login": "mjovanc",
+      "id": 33717111,
+      "node_id": "MDQ6VXNlcjMzNzE3MTEx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33717111?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mjovanc",
+      "html_url": "https://github.com/mjovanc",
+      "followers_url": "https://api.github.com/users/mjovanc/followers",
+      "following_url": "https://api.github.com/users/mjovanc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mjovanc/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mjovanc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mjovanc/subscriptions",
+      "organizations_url": "https://api.github.com/users/mjovanc/orgs",
+      "repos_url": "https://api.github.com/users/mjovanc/repos",
+      "events_url": "https://api.github.com/users/mjovanc/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mjovanc/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b2468247c213e546bcb02d42bc6a20b1c75cb74b",
+        "url": "https://api.github.com/repos/delta-rs/delta/commits/b2468247c213e546bcb02d42bc6a20b1c75cb74b",
+        "html_url": "https://github.com/delta-rs/delta/commit/b2468247c213e546bcb02d42bc6a20b1c75cb74b"
+      }
+    ]
+  }
+]

@@ -1,0 +1,99 @@
+[
+ {
+    "id": "44699605664",
+    "type": "ReleaseEvent",
+    "actor": {
+      "id": 33717111,
+      "login": "mjovanc",
+      "display_login": "mjovanc",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mjovanc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33717111?"
+    },
+    "repo": {
+      "id": 893916892,
+      "name": "delta-rs/delta",
+      "url": "https://api.github.com/repos/delta-rs/delta"
+    },
+    "payload": {
+      "action": "published",
+      "release": {
+        "url": "https://api.github.com/repos/delta-rs/delta/releases/190149962",
+        "assets_url": "https://api.github.com/repos/delta-rs/delta/releases/190149962/assets",
+        "upload_url": "https://uploads.github.com/repos/delta-rs/delta/releases/190149962/assets{?name,label}",
+        "html_url": "https://github.com/delta-rs/delta/releases/tag/v0.1.0",
+        "id": 190149962,
+        "author": {
+          "login": "mjovanc",
+          "id": 33717111,
+          "node_id": "MDQ6VXNlcjMzNzE3MTEx",
+          "avatar_url": "https://avatars.githubusercontent.com/u/33717111?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/mjovanc",
+          "html_url": "https://github.com/mjovanc",
+          "followers_url": "https://api.github.com/users/mjovanc/followers",
+          "following_url": "https://api.github.com/users/mjovanc/following{/other_user}",
+          "gists_url": "https://api.github.com/users/mjovanc/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/mjovanc/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/mjovanc/subscriptions",
+          "organizations_url": "https://api.github.com/users/mjovanc/orgs",
+          "repos_url": "https://api.github.com/users/mjovanc/repos",
+          "events_url": "https://api.github.com/users/mjovanc/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/mjovanc/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "node_id": "RE_kwDONUgW3M4LVXVK",
+        "tag_name": "v0.1.0",
+        "target_commitish": "master",
+        "name": "RELEASE VERSION",
+        "draft": false,
+        "prerelease": true,
+        "created_at": "2024-12-11T18:40:23Z",
+        "published_at": "2024-12-11T18:41:03Z",
+        "assets": [
+
+        ],
+        "tarball_url": "https://api.github.com/repos/delta-rs/delta/tarball/v0.1.0",
+        "zipball_url": "https://api.github.com/repos/delta-rs/delta/zipball/v0.1.0",
+        "body": "## What's Changed\r\n\r\n* Add code to download mnist by @chaseWillden in https://github.com/delta-rs/delta/pull/4\r\n* Implement tensor random and zeros functions. Add size to shape by @chaseWillden in https://github.com/delta-rs/delta/pull/5\r\n* Fit model by @chaseWillden in https://github.com/delta-rs/delta/pull/6\r\n* Adding new dataset CIFAR-10 and example project by @mjovanc in https://github.com/delta-rs/delta/pull/24\r\n* Mnist Example with Adam Optimizer by @chaseWillden in https://github.com/delta-rs/delta/pull/25\r\n* Add cross entropy loss by @chaseWillden in https://github.com/delta-rs/delta/pull/27\r\n* Split out layers models by @mjovanc in https://github.com/delta-rs/delta/pull/33\r\n* Loss decrease by @chaseWillden in https://github.com/delta-rs/delta/pull/39\r\n* Adding optimization for performance and cleanup by @mjovanc in https://github.com/delta-rs/delta/pull/40\r\n* Improving sequential model output while training by @mjovanc in https://github.com/delta-rs/delta/pull/43\r\n* Save model by @chaseWillden in https://github.com/delta-rs/delta/pull/46\r\n* Adding logging library by @chaseWillden in https://github.com/delta-rs/delta/pull/50\r\n* Add imagenet_v2 by @chaseWillden in https://github.com/delta-rs/delta/pull/51\r\n* Helper function adam by @mjovanc in https://github.com/delta-rs/delta/pull/52\r\n* Adding println to fit function by @mjovanc in https://github.com/delta-rs/delta/pull/53\r\n* Fix unit test, test_adam_optimizer_incompatible_shapes in adam.rs by @mjovanc in https://github.com/delta-rs/delta/pull/68\r\n* Refactoring and cleanup by @mjovanc in https://github.com/delta-rs/delta/pull/70\r\n* Impl validate func sequential model by @mjovanc in https://github.com/delta-rs/delta/pull/73\r\n* Fix split_at to allow dynamic shapes by @chaseWillden in https://github.com/delta-rs/delta/pull/75\r\n* Implement Xavier or He initialization of random weights by @chaseWillden in https://github.com/delta-rs/delta/pull/77\r\n* Implement leaky relu by @chaseWillden in https://github.com/delta-rs/delta/pull/83\r\n* Implements prelu by @chaseWillden in https://github.com/delta-rs/delta/pull/85\r\n* Implement gelu by @chaseWillden in https://github.com/delta-rs/delta/pull/87\r\n* Implement ada delta optimizer by @chaseWillden in https://github.com/delta-rs/delta/pull/92\r\n* Implement the other optimizers by @chaseWillden in https://github.com/delta-rs/delta/pull/94\r\n* Implements huber and mean aboslute error by @chaseWillden in https://github.com/delta-rs/delta/pull/96\r\n\r\n## New Contributors\r\n* @chaseWillden made their first contribution in https://github.com/delta-rs/delta/pull/4\r\n* @mjovanc made their first contribution in https://github.com/delta-rs/delta/pull/24\r\n* @dependabot made their first contribution in https://github.com/delta-rs/delta/pull/65\r\n\r\n**Full Changelog**: https://github.com/delta-rs/delta/commits/v0.1.0",
+        "mentions_count": 3,
+        "mentions": [
+          {
+            "avatar_url": "https://avatars.githubusercontent.com/u/3342754?v=4",
+            "login": "chaseWillden",
+            "profile_name": "Chase Willden",
+            "profile_url": "https://github.com/chaseWillden",
+            "avatar_user_actor": true
+          },
+          {
+            "avatar_url": "https://avatars.githubusercontent.com/u/27347476?v=4",
+            "login": "dependabot",
+            "profile_name": "Dependabot",
+            "profile_url": "https://github.com/dependabot",
+            "avatar_user_actor": false
+          },
+          {
+            "avatar_url": "https://avatars.githubusercontent.com/u/33717111?v=4",
+            "login": "mjovanc",
+            "profile_name": "Marcus Cvjeticanin",
+            "profile_url": "https://github.com/mjovanc",
+            "avatar_user_actor": true
+          }
+        ],
+        "short_description_html": "<h2>What's Changed</h2>\n<ul>\n<li>Add code to download mnist by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/chaseWillden/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/chaseWillden\">@chaseWillden</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2695082818\" data-permission-text=\"Title is private\" data-url=\"https://github.com/delta-rs/delta/issues/4\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/delta-rs/delta/pull/4/hovercard\" href=\"https://github.com/delta-rs/delta/pull/4\">#4</a>\n</li>\n<li>Implement tensor random and zeros functions. Add size to shape by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/chaseWillden/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/chaseWillden\">@chaseWillden</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2695989159\" data-permission-text=\"Title is private\" data-url=\"https://github.com/delta-rs/delta/issues/5\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/delta-rs/delta/pull/5/hovercard\" href=\"https://github.com/delta-rs/delta/pull/5\">#5</a>\n</li>\n<li>Fit model by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/chaseWillden/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/chaseWillden\">@chaseWillden</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2697374110\" data-permission-text=\"Title is private\" data-url=\"https://github.com/delta-rs/delta/issues/6\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/delta-rs/delta/pull/6/hovercard\" href=\"https://github.com/delta-rs/delta/pull/6\">#6</a>\n</li>\n<li>Adding new d…</li>\n</ul>",
+        "is_short_description_html_truncated": true
+      }
+    },
+    "public": true,
+    "created_at": "2024-12-11T18:41:04Z",
+    "org": {
+      "id": 189621827,
+      "login": "delta-rs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/delta-rs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/189621827?"
+    }
+  }
+]

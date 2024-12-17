@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  xbot:
+    build: .
+    command: /app/x-bot
+    environment:
+      - RUST_BACKTRACE=1
+      - RUST_LOG=trace

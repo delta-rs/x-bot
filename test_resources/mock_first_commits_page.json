@@ -1,0 +1,171 @@
+[
+  {
+    "sha": "58b39df43a09d54fb14bfc022447175e428c52cb",
+    "node_id": "C_kwDONUgW3NoAKDU4YjM5ZGY0M2EwOWQ1NGZiMTRiZmMwMjI0NDcxNzVlNDI4YzUyY2I",
+    "commit": {
+      "author": {
+        "name": "Chase Willden",
+        "email": "chase.willden@gmail.com",
+        "date": "2024-12-13T22:37:40Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-12-13T22:37:40Z"
+      },
+      "message": "Merge pull request #137 from delta-rs/136-metal-floating-point-math-is-off\n\nresolve #136 fixes the floating point math for metal",
+      "tree": {
+        "sha": "6e86d20d723b89c85e3193e34875dcdd87c8680e",
+        "url": "https://api.github.com/repos/delta-rs/delta/git/trees/6e86d20d723b89c85e3193e34875dcdd87c8680e"
+      },
+      "url": "https://api.github.com/repos/delta-rs/delta/git/commits/58b39df43a09d54fb14bfc022447175e428c52cb",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnXLc0CRC1aQ7uu5UhlAAAef8QABiOfTjdxBTkY3S1bsxINBx/\n/Vm+m/RBaSRFQVOp/6OQ3OpPqXA2D30Zi6dBQHaFhuuXHEi+MG9nikUJDDj+PRZb\nNosGmMjiPZsIniOWPYpod0qsXXuej5EtWirDypM3HEBq6qDB48fC1+d5i/ORiWZw\nKjITan9RO+Z0P8w/eg/X2Juqq6Lu3nqRnDXubJBq5koybSQIoRdmFNq7u1YPMZQX\nWatSD6RM1M1nQh6EUQxEKjRpKuC2HeWtK0YCPRVt/8oJhxo+0N2KtLlOPiE/wznI\n55G8GmPzbNKigRdHgkwq80YLuIm8FpnLLmnVfaH+RLEeGX/8aZWjRhGRB+zIAaCh\nFBWQRH1k4gBLPvzd5NKLIFM1E3a8V0VFXre7EhXokuZydLMz5mmfcBcz2sJP4F1X\no9pSrBFq/xm+TwH53sinw9534GIKG6ES8S2JejLxn0nh0D4ItNcLsgE8+ufknJWh\nFcsLGHH9q3Uppe/8Q5g+EuPZxHqcjDjARhukIMcG9lIvvEhYMpo8Wec0jSJLqLrJ\naYcCOrER1FEZoGSpQQiQNI2NPhwviAMkicmlMK+Qjyo9qacPAkkw3SA7/PsccheG\nOFkf2weBmvwF408nef4+/DVJTarw9QTohPZyGxc/9w7ttAYCtPiM3wiAMF4npL1S\nlpbcu6NSG6R0KZS7PASd\n=T7Ld\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 6e86d20d723b89c85e3193e34875dcdd87c8680e\nparent d996eb17862f53c0800580d96ac9f8b8082d2ac6\nparent c40055e305bcb94fd7d6eeaa77d043dbf53c86ce\nauthor Chase Willden <chase.willden@gmail.com> 1734129460 -0700\ncommitter GitHub <noreply@github.com> 1734129460 -0700\n\nMerge pull request #137 from delta-rs/136-metal-floating-point-math-is-off\n\nresolve #136 fixes the floating point math for metal",
+        "verified_at": "2024-12-13T22:42:42Z"
+      }
+    },
+    "url": "https://api.github.com/repos/delta-rs/delta/commits/58b39df43a09d54fb14bfc022447175e428c52cb",
+    "html_url": "https://github.com/delta-rs/delta/commit/58b39df43a09d54fb14bfc022447175e428c52cb",
+    "comments_url": "https://api.github.com/repos/delta-rs/delta/commits/58b39df43a09d54fb14bfc022447175e428c52cb/comments",
+    "author": {
+      "login": "chaseWillden",
+      "id": 3342754,
+      "node_id": "MDQ6VXNlcjMzNDI3NTQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3342754?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chaseWillden",
+      "html_url": "https://github.com/chaseWillden",
+      "followers_url": "https://api.github.com/users/chaseWillden/followers",
+      "following_url": "https://api.github.com/users/chaseWillden/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chaseWillden/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chaseWillden/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chaseWillden/subscriptions",
+      "organizations_url": "https://api.github.com/users/chaseWillden/orgs",
+      "repos_url": "https://api.github.com/users/chaseWillden/repos",
+      "events_url": "https://api.github.com/users/chaseWillden/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chaseWillden/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d996eb17862f53c0800580d96ac9f8b8082d2ac6",
+        "url": "https://api.github.com/repos/delta-rs/delta/commits/d996eb17862f53c0800580d96ac9f8b8082d2ac6",
+        "html_url": "https://github.com/delta-rs/delta/commit/d996eb17862f53c0800580d96ac9f8b8082d2ac6"
+      },
+      {
+        "sha": "c40055e305bcb94fd7d6eeaa77d043dbf53c86ce",
+        "url": "https://api.github.com/repos/delta-rs/delta/commits/c40055e305bcb94fd7d6eeaa77d043dbf53c86ce",
+        "html_url": "https://github.com/delta-rs/delta/commit/c40055e305bcb94fd7d6eeaa77d043dbf53c86ce"
+      }
+    ]
+  },
+  {
+    "sha": "c40055e305bcb94fd7d6eeaa77d043dbf53c86ce",
+    "node_id": "C_kwDONUgW3NoAKGM0MDA1NWUzMDViY2I5NGZkN2Q2ZWVhYTc3ZDA0M2RiZjUzYzg2Y2U",
+    "commit": {
+      "author": {
+        "name": "Chase Willden",
+        "email": "chase.willden@gmail.com",
+        "date": "2024-12-13T22:15:16Z"
+      },
+      "committer": {
+        "name": "Chase Willden",
+        "email": "chase.willden@gmail.com",
+        "date": "2024-12-13T22:15:16Z"
+      },
+      "message": "resolve #136 fixes the floating point math for metal",
+      "tree": {
+        "sha": "6e86d20d723b89c85e3193e34875dcdd87c8680e",
+        "url": "https://api.github.com/repos/delta-rs/delta/git/trees/6e86d20d723b89c85e3193e34875dcdd87c8680e"
+      },
+      "url": "https://api.github.com/repos/delta-rs/delta/git/commits/c40055e305bcb94fd7d6eeaa77d043dbf53c86ce",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niQGzBAABCAAdFiEE4oTCfcDkM0opjBtwt0KT4IICy7oFAmdcsfcACgkQt0KT4IIC\ny7pbVQwArg1lGzKgUnEoDC7szssvdUW5kyagM9pT3cZ2BcaX7i8eUQFbR+54xUxN\nrp8B3FeDnugv1R9+FzA8apq9+TgitacdnBhtBXKfH/AzzXa576d7qzNYoZpytFDv\n+JMjEd2kmJ1XO97oEed4Kgvq4Jl7QMMwOwqsH4qyxVpOL0B0lC+vISZujQGYD/st\nJCzvp2JpeO3EMP/UfjyfwJ5eEcLfHbYFS7r4Wg2e1upAzX9K+mB6HcF/p++44Swc\nfTV4owHb5E25Xjc35ep8rCgMxUWWaPVSfDyOOctMJl5RsrMewlHr/7QzyQ4T5A6/\nY1KvoMZcSgbb9PYTchV9amOyjNcL93Hhu8wn3rz6m+iPu3XGjMmMu0N+URJp+o/w\nQ8FHWUL7ApNAMdu29GOHAlg4ZsGPSBo9JjWeBj+q2yNphp//GQChKL4ksPoWq8tS\nLRg7oTFIEyKMLTgr+lUzxRun6zc2hhTKT/kF1fNMsWoMkSuElEKTA+/Ud3l0vBAH\n3DxLmers\n=aHk+\n-----END PGP SIGNATURE-----",
+        "payload": "tree 6e86d20d723b89c85e3193e34875dcdd87c8680e\nparent d996eb17862f53c0800580d96ac9f8b8082d2ac6\nauthor Chase Willden <chase.willden@gmail.com> 1734128116 -0700\ncommitter Chase Willden <chase.willden@gmail.com> 1734128116 -0700\n\nresolve #136 fixes the floating point math for metal\n",
+        "verified_at": "2024-12-13T22:15:28Z"
+      }
+    },
+    "url": "https://api.github.com/repos/delta-rs/delta/commits/c40055e305bcb94fd7d6eeaa77d043dbf53c86ce",
+    "html_url": "https://github.com/delta-rs/delta/commit/c40055e305bcb94fd7d6eeaa77d043dbf53c86ce",
+    "comments_url": "https://api.github.com/repos/delta-rs/delta/commits/c40055e305bcb94fd7d6eeaa77d043dbf53c86ce/comments",
+    "author": {
+      "login": "chaseWillden",
+      "id": 3342754,
+      "node_id": "MDQ6VXNlcjMzNDI3NTQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3342754?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chaseWillden",
+      "html_url": "https://github.com/chaseWillden",
+      "followers_url": "https://api.github.com/users/chaseWillden/followers",
+      "following_url": "https://api.github.com/users/chaseWillden/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chaseWillden/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chaseWillden/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chaseWillden/subscriptions",
+      "organizations_url": "https://api.github.com/users/chaseWillden/orgs",
+      "repos_url": "https://api.github.com/users/chaseWillden/repos",
+      "events_url": "https://api.github.com/users/chaseWillden/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chaseWillden/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "chaseWillden",
+      "id": 3342754,
+      "node_id": "MDQ6VXNlcjMzNDI3NTQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3342754?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chaseWillden",
+      "html_url": "https://github.com/chaseWillden",
+      "followers_url": "https://api.github.com/users/chaseWillden/followers",
+      "following_url": "https://api.github.com/users/chaseWillden/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chaseWillden/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chaseWillden/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chaseWillden/subscriptions",
+      "organizations_url": "https://api.github.com/users/chaseWillden/orgs",
+      "repos_url": "https://api.github.com/users/chaseWillden/repos",
+      "events_url": "https://api.github.com/users/chaseWillden/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chaseWillden/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d996eb17862f53c0800580d96ac9f8b8082d2ac6",
+        "url": "https://api.github.com/repos/delta-rs/delta/commits/d996eb17862f53c0800580d96ac9f8b8082d2ac6",
+        "html_url": "https://github.com/delta-rs/delta/commit/d996eb17862f53c0800580d96ac9f8b8082d2ac6"
+      }
+    ]
+  }
+]
